@@ -1,0 +1,218 @@
+[34mINFO:   [0m Starting build...
+Getting image source signatures
+Copying blob sha256:7ddbc47eeb70dc7f08e410a6667948b87ff3883024eb41478b44ef9a81bf400c
+Copying blob sha256:c1bbdc448b7263673926b8fe2e88491e5083a8b4b06ddfabf311f2fc5f27e2ff
+Copying blob sha256:8c3b70e3904492c753652606df4726430426f42ea56e06ea924d6fea7ae162a1
+Copying blob sha256:45d437916d5781043432f2d72608049dcf74ddbd27daa01a25fa63c8f1b9adc4
+Copying blob sha256:d8f1569ddae616589c5a2dabf668fadd250ee9d89253ef16f0cb0c8a9459b322
+Copying blob sha256:85386706b02069c58ffaea9de66c360f9d59890e56f58485d05c1a532ca30db1
+Copying blob sha256:ee9b457b77d047ff322858e2de025e266ff5908aec569560e77e2e4451fc23f4
+Copying blob sha256:be4f3343ecd31ebf7ec8809f61b1d36c2c2f98fc4e63582401d9108575bc443a
+Copying blob sha256:30b4effda4fdab95ec4eba8873f86e7574c2edddf4dc5df8212e3eda1545aafa
+Copying blob sha256:b398e882f4149bf61faa8f2c1d47a4fe98b8fe1b2c9379da1d58ddc54fe67cf0
+Copying config sha256:0444ed9631b23b58eab446ee35db2e978deb1fe777cd29ea7546821667bb6d5c
+Writing manifest to image destination
+Storing signatures
+2020/04/03 08:45:18  info unpack layer: sha256:7ddbc47eeb70dc7f08e410a6667948b87ff3883024eb41478b44ef9a81bf400c
+2020/04/03 08:45:24  info unpack layer: sha256:c1bbdc448b7263673926b8fe2e88491e5083a8b4b06ddfabf311f2fc5f27e2ff
+2020/04/03 08:45:24  info unpack layer: sha256:8c3b70e3904492c753652606df4726430426f42ea56e06ea924d6fea7ae162a1
+2020/04/03 08:45:24  info unpack layer: sha256:45d437916d5781043432f2d72608049dcf74ddbd27daa01a25fa63c8f1b9adc4
+2020/04/03 08:45:24  info unpack layer: sha256:d8f1569ddae616589c5a2dabf668fadd250ee9d89253ef16f0cb0c8a9459b322
+2020/04/03 08:45:26  info unpack layer: sha256:85386706b02069c58ffaea9de66c360f9d59890e56f58485d05c1a532ca30db1
+2020/04/03 08:45:26  info unpack layer: sha256:ee9b457b77d047ff322858e2de025e266ff5908aec569560e77e2e4451fc23f4
+2020/04/03 08:45:26  info unpack layer: sha256:be4f3343ecd31ebf7ec8809f61b1d36c2c2f98fc4e63582401d9108575bc443a
+2020/04/03 08:45:45  info unpack layer: sha256:30b4effda4fdab95ec4eba8873f86e7574c2edddf4dc5df8212e3eda1545aafa
+2020/04/03 08:48:19  info unpack layer: sha256:b398e882f4149bf61faa8f2c1d47a4fe98b8fe1b2c9379da1d58ddc54fe67cf0
+[34mINFO:   [0m Copying /att/gpfsfs/briskfs01/ppl/iluser/projects/ilab to /att/gpfsfs/briskfs01/ppl/iluser/singularity-cache/rootfs-e8d0e470-75a8-11ea-a21e-fa163e371b64/usr/local/otb
+[34mINFO:   [0m Running post scriptlet
++ apt-get update -y
+Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic InRelease [242 kB]
+Ign:3 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64  InRelease
+Ign:4 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64  InRelease
+Get:5 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64  Release [564 B]
+Get:6 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64  Release [564 B]
+Get:7 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64  Release.gpg [819 B]
+Get:8 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64  Release.gpg [833 B]
+Get:9 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [7904 B]
+Get:10 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:11 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [835 kB]
+Get:12 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64  Packages [141 kB]
+Get:13 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Get:14 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [870 kB]
+Get:15 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64  Packages [31.7 kB]
+Get:16 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [37.0 kB]
+Get:17 http://archive.ubuntu.com/ubuntu bionic/restricted amd64 Packages [13.5 kB]
+Get:18 http://archive.ubuntu.com/ubuntu bionic/universe amd64 Packages [11.3 MB]
+Get:19 http://archive.ubuntu.com/ubuntu bionic/multiverse amd64 Packages [186 kB]
+Get:20 http://archive.ubuntu.com/ubuntu bionic/main amd64 Packages [1344 kB]
+Get:21 http://archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [50.4 kB]
+Get:22 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [1161 kB]
+Get:23 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [12.2 kB]
+Get:24 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1367 kB]
+Get:25 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [4247 B]
+Get:26 http://archive.ubuntu.com/ubuntu bionic-backports/main amd64 Packages [2496 B]
+Fetched 17.9 MB in 21s (855 kB/s)
+Reading package lists...
++ apt-get upgrade -y
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages have been kept back:
+  libcublas-dev libcublas10 libcudnn7 libcudnn7-dev libnccl-dev libnccl2
+The following packages will be upgraded:
+  base-files bsdutils cpp-7 e2fsprogs fdisk g++-7 gcc-7 gcc-7-base gcc-8-base
+  libasan4 libatomic1 libblkid1 libcc1-0 libcilkrts5 libcom-err2 libext2fs2
+  libfdisk1 libgcc-7-dev libgcc1 libgcrypt20 libgnutls30 libgomp1 libitm1
+  liblsan0 libmount1 libmpx2 libquadmath0 libsasl2-2 libsasl2-modules-db
+  libsmartcols1 libsqlite3-0 libss2 libstdc++-7-dev libstdc++6 libsystemd0
+  libtsan0 libubsan0 libudev1 libuuid1 linux-libc-dev mount util-linux
+42 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+Need to get 38.5 MB of archives.
+After this operation, 4438 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 base-files amd64 10.1ubuntu2.8 [59.9 kB]
+Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 bsdutils amd64 1:2.31.1-0.4ubuntu3.6 [60.3 kB]
+Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libext2fs2 amd64 1.44.1-1ubuntu1.3 [157 kB]
+Get:4 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 e2fsprogs amd64 1.44.1-1ubuntu1.3 [391 kB]
+Get:5 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libuuid1 amd64 2.31.1-0.4ubuntu3.6 [20.1 kB]
+Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libblkid1 amd64 2.31.1-0.4ubuntu3.6 [124 kB]
+Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libfdisk1 amd64 2.31.1-0.4ubuntu3.6 [164 kB]
+Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libmount1 amd64 2.31.1-0.4ubuntu3.6 [136 kB]
+Get:9 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsmartcols1 amd64 2.31.1-0.4ubuntu3.6 [83.7 kB]
+Get:10 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 fdisk amd64 2.31.1-0.4ubuntu3.6 [108 kB]
+Get:11 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 util-linux amd64 2.31.1-0.4ubuntu3.6 [903 kB]
+Get:12 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsystemd0 amd64 237-3ubuntu10.39 [206 kB]
+Get:13 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 mount amd64 2.31.1-0.4ubuntu3.6 [107 kB]
+Get:14 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libquadmath0 amd64 8.4.0-1ubuntu1~18.04 [134 kB]
+Get:15 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libitm1 amd64 8.4.0-1ubuntu1~18.04 [27.9 kB]
+Get:16 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc-8-base amd64 8.4.0-1ubuntu1~18.04 [18.7 kB]
+Get:17 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libstdc++6 amd64 8.4.0-1ubuntu1~18.04 [400 kB]
+Get:18 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libmpx2 amd64 8.4.0-1ubuntu1~18.04 [11.6 kB]
+Get:19 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 liblsan0 amd64 8.4.0-1ubuntu1~18.04 [133 kB]
+Get:20 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libtsan0 amd64 8.4.0-1ubuntu1~18.04 [288 kB]
+Get:21 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcc1-0 amd64 8.4.0-1ubuntu1~18.04 [39.4 kB]
+Get:22 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libatomic1 amd64 8.4.0-1ubuntu1~18.04 [9192 B]
+Get:23 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgomp1 amd64 8.4.0-1ubuntu1~18.04 [76.5 kB]
+Get:24 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgcc1 amd64 1:8.4.0-1ubuntu1~18.04 [40.6 kB]
+Get:25 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcom-err2 amd64 1.44.1-1ubuntu1.3 [8848 B]
+Get:26 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgcrypt20 amd64 1.8.1-4ubuntu1.2 [417 kB]
+Get:27 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libss2 amd64 1.44.1-1ubuntu1.3 [11.1 kB]
+Get:28 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libudev1 amd64 237-3ubuntu10.39 [56.1 kB]
+Get:29 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgnutls30 amd64 3.5.18-1ubuntu1.3 [646 kB]
+Get:30 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsqlite3-0 amd64 3.22.0-1ubuntu0.3 [498 kB]
+Get:31 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libasan4 amd64 7.5.0-3ubuntu1~18.04 [358 kB]
+Get:32 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libubsan0 amd64 7.5.0-3ubuntu1~18.04 [126 kB]
+Get:33 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcilkrts5 amd64 7.5.0-3ubuntu1~18.04 [42.5 kB]
+Get:34 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 g++-7 amd64 7.5.0-3ubuntu1~18.04 [9697 kB]
+Get:35 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc-7 amd64 7.5.0-3ubuntu1~18.04 [9381 kB]
+Get:36 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libstdc++-7-dev amd64 7.5.0-3ubuntu1~18.04 [1471 kB]
+Get:37 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgcc-7-dev amd64 7.5.0-3ubuntu1~18.04 [2378 kB]
+Get:38 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 cpp-7 amd64 7.5.0-3ubuntu1~18.04 [8591 kB]
+Get:39 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 gcc-7-base amd64 7.5.0-3ubuntu1~18.04 [18.3 kB]
+Get:40 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsasl2-modules-db amd64 2.1.27~101-g0780600+dfsg-3ubuntu2.1 [14.8 kB]
+Get:41 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsasl2-2 amd64 2.1.27~101-g0780600+dfsg-3ubuntu2.1 [49.2 kB]
+Get:42 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-libc-dev amd64 4.15.0-91.92 [1026 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 38.5 MB in 1min 1s (629 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../base-files_10.1ubuntu2.8_amd64.deb ...
+Unpacking base-files (10.1ubuntu2.8) over (10.1ubuntu2.7) ...
+Setting up base-files (10.1ubuntu2.8) ...
+Installing new version of config file /etc/issue ...
+Installing new version of config file /etc/issue.net ...
+Installing new version of config file /etc/lsb-release ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking bsdutils (1:2.31.1-0.4ubuntu3.6) over (1:2.31.1-0.4ubuntu3.4) ...
+Setting up bsdutils (1:2.31.1-0.4ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libext2fs2_1.44.1-1ubuntu1.3_amd64.deb ...
+Unpacking libext2fs2:amd64 (1.44.1-1ubuntu1.3) over (1.44.1-1ubuntu1.2) ...
+Setting up libext2fs2:amd64 (1.44.1-1ubuntu1.3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../e2fsprogs_1.44.1-1ubuntu1.3_amd64.deb ...
+Unpacking e2fsprogs (1.44.1-1ubuntu1.3) over (1.44.1-1ubuntu1.2) ...
+Setting up e2fsprogs (1.44.1-1ubuntu1.3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking libuuid1:amd64 (2.31.1-0.4ubuntu3.6) over (2.31.1-0.4ubuntu3.4) ...
+Setting up libuuid1:amd64 (2.31.1-0.4ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libblkid1_2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking libblkid1:amd64 (2.31.1-0.4ubuntu3.6) over (2.31.1-0.4ubuntu3.4) ...
+Setting up libblkid1:amd64 (2.31.1-0.4ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libfdisk1_2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.31.1-0.4ubuntu3.6) over (2.31.1-0.4ubuntu3.4) ...
+Setting up libfdisk1:amd64 (2.31.1-0.4ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking libmount1:amd64 (2.31.1-0.4ubuntu3.6) over (2.31.1-0.4ubuntu3.4) ...
+Setting up libmount1:amd64 (2.31.1-0.4ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libsmartcols1_2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.31.1-0.4ubuntu3.6) over (2.31.1-0.4ubuntu3.4) ...
+Setting up libsmartcols1:amd64 (2.31.1-0.4ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../fdisk_2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking fdisk (2.31.1-0.4ubuntu3.6) over (2.31.1-0.4ubuntu3.4) ...
+Setting up fdisk (2.31.1-0.4ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking util-linux (2.31.1-0.4ubuntu3.6) over (2.31.1-0.4ubuntu3.4) ...
+Setting up util-linux (2.31.1-0.4ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libsystemd0_237-3ubuntu10.39_amd64.deb ...
+Unpacking libsystemd0:amd64 (237-3ubuntu10.39) over (237-3ubuntu10.31) ...
+Setting up libsystemd0:amd64 (237-3ubuntu10.39) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../mount_2.31.1-0.4ubuntu3.6_amd64.deb ...
+Unpacking mount (2.31.1-0.4ubuntu3.6) over (2.31.1-0.4ubuntu3.4) ...
+Preparing to unpack .../libquadmath0_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../libitm1_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libitm1:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../gcc-8-base_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking gcc-8-base:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Setting up gcc-8-base:amd64 (8.4.0-1ubuntu1~18.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libstdc++6:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Setting up libstdc++6:amd64 (8.4.0-1ubuntu1~18.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../0-libmpx2_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libmpx2:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../1-liblsan0_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking liblsan0:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../2-libtsan0_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libtsan0:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../3-libcc1-0_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../4-libatomic1_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libatomic1:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../5-libgomp1_8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libgomp1:amd64 (8.4.0-1ubuntu1~18.04) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../6-libgcc1_1%3a8.4.0-1ubuntu1~18.04_amd64.deb ...
+Unpacking libgcc1:amd64 (1:8.4.0-1ubuntu1~18.04) over (1:8.3.0-6ubuntu1~18.04.1) ...
+Setting up libgcc1:amd64 (1:8.4.0-1ubuntu1~18.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libcom-err2_1.44.1-1ubuntu1.3_amd64.deb ...
+Unpacking libcom-err2:amd64 (1.44.1-1ubuntu1.3) over (1.44.1-1ubuntu1.2) ...
+Setting up libcom-err2:amd64 (1.44.1-1ubuntu1.3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libgcrypt20_1.8.1-4ubuntu1.2_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.8.1-4ubuntu1.2) over (1.8.1-4ubuntu1.1) ...
+Setting up libgcrypt20:amd64 (1.8.1-4ubuntu1.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libss2_1.44.1-1ubuntu1.3_amd64.deb ...
+Unpacking libss2:amd64 (1.44.1-1ubuntu1.3) over (1.44.1-1ubuntu1.2) ...
+Setting up libss2:amd64 (1.44.1-1ubuntu1.3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libudev1_237-3ubuntu10.39_amd64.deb ...
+Unpacking libudev1:amd64 (237-3ubuntu10.39) over (237-3ubuntu10.31) ...
+Setting up libudev1:amd64 (237-3ubuntu10.39) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 12067 files and directories currently installed.)
+Preparing to unpack .../libgnutls30_3.5.18-1ubuntu1.3_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.5.18-1ubuntu1.3) over (3.5.18-1ubuntu1.1) ...
+Setting up libgnutls30:amd64 (3.5.18-1ubuntu1.3) ...

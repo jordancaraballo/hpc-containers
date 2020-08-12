@@ -1,0 +1,25 @@
+## Generate core container with ilab-specific dependencies that builds on the Python ecosystem container
+Bootstrap: library
+FROM: jordancaraballo/default/cisto-datascience:sha256.d09ec93cecf04b400c3b414ff84371c7b8ac866dcbe350daf8e4d9b3d44a79f9 
+
+%labels
+    Author gtamkin
+    Version v1.0.1
+
+%help
+===========================================================================
+    - ilab-core (extends -> python3-data-science) – contains GIS & ilab dependencies:
+        a.    GDAL
+        b.    Celery
+===========================================================================
+
+%post
+
+    # install GDAL
+    apt-get update && apt-get install --fix-missing -y vim sudo gdal-bin libgdal-dev 
+    python3.7 -m pip install --global-option=build_ext --global-option="-I/usr/include/gdal" GDAL==2.1.3
+    gdal-config --version
+
+    # install celery
+    python3.7 -m pip install --upgrade celery==4.3.0
+
