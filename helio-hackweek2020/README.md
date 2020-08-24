@@ -87,3 +87,7 @@ This happens when loading the PySPEDAS library without X11 configured. Make sure
 ```
 ssh -X -Y hostname
 ```
+Or, if X11 is not required, feel free to run the following command before requesting a shell inside the singularity container.
+```
+export QT_QPA_PLATFORM=offscreen
+```
